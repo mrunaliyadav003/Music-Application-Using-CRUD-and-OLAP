@@ -1,0 +1,9 @@
+name: base
+channels:
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+    - streamlit>=1.28.0
+    - pandas>=2.0.0
